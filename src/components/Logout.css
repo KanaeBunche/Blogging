@@ -1,0 +1,21 @@
+/* Add this to your existing CSS file */
+
+.logout-button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 1px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    width:75px;
+}
+
+.logout-button:hover {
+    background-color: darkgray; /* Hover effect */
+    border-color: black;
+}

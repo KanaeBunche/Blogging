@@ -1,0 +1,72 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+/* Navbar styles */
+.stories-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Light background */
+    border-bottom: 2px solid #000; /* Bottom border */
+}
+
+/* Left side styles */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    margin-right: 20px; /* Space between title and search */
+    font-size:24px; /* Adjust size as needed */
+    font-family:  'Times New Roman', Times, serif;
+   
+}
+
+/* Search input styles */
+.navbar-search {
+    padding: 8px; /* Add padding */
+    border: 2px solid #000; /* Border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+/* Right side styles */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Write button styles */
+.navbar-write-btn {
+    background-color: black ;/* Button color */
+    border: 2px solid #000; /* Button border */
+    padding: 7px 18px; /* Padding */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    margin-right: 15px; 
+    color:white;/* Space between button and user placeholder */
+    width: 75px;
+    height:40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar-write-btn:hover {
+    background-color: darkgray; /* Hover effect */
+    border-color: #000;
+}
+
+/* User placeholder and notification icon styles */
+.navbar-user-placeholder {
+    margin-right: 15px; /* Space between user placeholder and notification icon */
+    font-size: 16px; /* Font size */
+}
+
+.navbar-notification-icon {
+    font-size: 20px; /* Size of notification icon */
+}

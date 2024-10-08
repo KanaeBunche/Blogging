@@ -1,0 +1,149 @@
+.write-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px;
+    min-height: 100vh; /* Ensure it takes full height */
+    position: relative;
+    overflow: hidden; /* Needed for absolute positioning of the vertical line */
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.profile-placeholder {
+    width: 50px; /* Circle size */
+    height: 50px; /* Circle size */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #ccc; /* Placeholder color */
+    margin-right: 10px; /* Space between profile and logo */
+}
+
+.bloggers-logo {
+    font-size: 30px; /* Logo size */
+    margin-right: auto; 
+    color:black;/* Pushes the logo to the left */
+    padding-left: 10px;
+    
+   
+}
+.bloggers-logo:hover{
+    color:black;
+}
+
+.header-spacer {
+    flex: 1; /* Takes up remaining space */
+}
+
+.write-title {
+    text-align: right; 
+    color:black;/* Align text to the right */
+    
+}
+
+.horizontal-line {
+    width: 100%; /* Full width */
+    border: 1px solid black; /* Horizontal line color */
+    margin: 20px 0;
+}
+
+/* Vertical line on the left */
+.vertical-line {
+    width: 2px; /* Width of the line */
+    background-color: black; /* Line color */
+    height: 100%; /* Full height */
+    position: absolute; /* Position it to the left */
+    left: 0; /* Align to the left */
+    top: 80px; /* Adjust as needed */
+    margin-left: 100px; /* Position below the header */
+}
+
+.editor-container {
+    margin-left: 100px; /* Prevent overlap with vertical line */
+    width: calc(100% - 150px); /* Adjust the width of the editor */
+}
+
+.wrapperClassName {
+    border: none; /* Remove border around editor */
+    background-color:transparent; /* White background for the editor */
+    padding: 10px; /* Padding inside the editor */
+}
+
+/* Add this to your Write.css or your main CSS file */
+.editorClassName {
+    min-height: 100px; /* Ensure the editor has enough height */
+}
+
+
+
+
+/* Global override for the toolbar */
+.rdw-editor-toolbar {
+    padding: 10px 10px; /* Adjust padding */
+    border-radius: 20px; /* Change border radius */
+    border: 1px solid lightgrey;
+    display: flex; /* Retain display type */
+    justify-content: center; /* Center items */
+    background: lightgrey;
+    flex-wrap: wrap; /* Retain wrapping behavior */
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 10px; /* Change bottom margin */
+    user-select: none; /* Retain user-select behavior */
+    color: Black; /* Change text color */
+    margin-left: 100px;
+}
+.rdw-editor-toolbar:hover{
+    background-color: lightgray;
+}
+
+
+
+
+.button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 1px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    width:75px;
+}
+
+.button:hover {
+    border-color: black;
+    background-color:gray;
+}
+
+
+
+.username-display{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 1px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    width:75px;
+}
+
+.username-display:hover {
+    background-color: gray; /* Slightly darker background on hover */
+    border-color: black; /* Darker border on hover */
+}
+
